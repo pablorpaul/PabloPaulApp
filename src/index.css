@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.carrossel {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.fundo {
+  background-image: url("https://static.todamateria.com.br/upload/oq/ue/oqueehistoriaemquadrinhos-0-cke.jpg");
+  opacity: 0.3;
+}
+
+.imagem-sobre {
+  width: 400px;
+  height: auto;
+}
+

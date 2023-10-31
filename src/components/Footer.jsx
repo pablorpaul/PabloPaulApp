@@ -7,6 +7,11 @@ export default function Footer(){
             <div className="row">
                 <div className="col-12 col-md">
                     <h5>Mensal Comics</h5>
+                    <ul className="list-unstyled text-small">
+                        <li className="mb-1">
+                            2023@ - Todos os direitos reservados
+                        </li>
+                    </ul>    
                 </div>
                 <div className="col-6 col-md">
                     <h5>Redes Sociais</h5>
@@ -23,10 +28,25 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div className="col-6 col-md">
-                    <h5>Recursos</h5>
+                    <h5>Parceiros</h5>
+                    <ul className="list-unstyled text-small">
+                        <li className="mb-1">
+                            ComicsNow
+                        </li>
+                        <li className="mb-1">
+                            QuadrinhosmEQuadrinhos
+                        </li><li className="mb-1">
+                            DoingComics
+                        </li>
+                    </ul>
                 </div>
                 <div className="col-6 col-md">
                     <h5>Sobre</h5>
+                    <ul className="list-unstyled text-small">
+                        <li className="mb-1">
+                            <Link className="nav-link active" aria-current="page" to="/sobre">Página Sobre</Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
